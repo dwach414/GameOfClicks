@@ -46,6 +46,7 @@ public class MainActivity extends Activity{
 	int clickCount;
 	String itemSelected2;
 	String ehsan;
+	String ehsan2;
 
 
 	@Override
