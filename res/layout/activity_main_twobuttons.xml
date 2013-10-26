@@ -32,13 +32,16 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/food" />
+                android:text="@string/food"
+                android:textColor="#FF000000" />
 
             <TextView
                 android:id="@id/foodcount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FF000000" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -50,13 +53,16 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lumber" />
+                android:text="@string/lumber"
+                android:textColor="#FF000000" />
 
             <TextView
                 android:id="@id/lumbercount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FF000000" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -68,13 +74,16 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/stone" />
+                android:text="@string/stone"
+                android:textColor="#FF000000" />
 
             <TextView
                 android:id="@id/stonecount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FF000000" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -86,13 +95,16 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/gold" />
+                android:text="@string/gold"
+                android:textColor="#FF000000" />
 
             <TextView
                 android:id="@id/goldcount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FF000000" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -104,13 +116,16 @@
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/mana" />
+                android:text="@string/mana"
+                android:textColor="#FF000000" />
 
             <TextView
                 android:id="@id/manacount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FF000000" />
+
         </LinearLayout>
 
         <LinearLayout
