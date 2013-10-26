@@ -12,7 +12,7 @@
     <string name="clickerButton">Click Me!</string>
     <string name="upgrades">Upgrades</string>
     <string name="buy">Buy</string>
-    <string name="twobuttons">For 10 of each resouce you get buy two buttons. :P</string>
+    <string name="twobuttons">Paintball trigger mode</string>
 
     <string-array name="resouces_array">
         <item>Food</item>
