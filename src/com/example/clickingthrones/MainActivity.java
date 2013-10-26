@@ -220,13 +220,30 @@ public class MainActivity extends Activity{
 					}
 				});
 				
-				int increment = (int) (Math.random()*5 + 1);
+				int increment = (int) (Math.random()*125);
+				if(increment >= 0 && increment < 75)
+					increment = 1;
+				else if(increment >= 75 && increment < 100)
+					increment = 2;
+				else if(increment >= 100 && increment < 110)
+					increment = 3;
+				else if (increment >= 100 && increment < 120)
+					increment = 4;
+				else 
+					increment = 5;
 				
 				TextView tv2 = new TextView(act);
 				tv2.setTextAppearance(act, android.R.style.TextAppearance_DeviceDefault_Large);
 				tv2.setText("+"+ increment);
 				tv2.setTextColor(color);
+				tv2.setTextSize(increment*4 + 20);
+				
+				if(increment == 5)
+					tv2.setText("+"+ increment + "!");
+				else
+					tv2.setText("+" + increment);
 				frame.addView(tv2);
+				
 				int xfinal = (int) (Math.random() * (width-200));
 				
 
@@ -273,11 +290,28 @@ public class MainActivity extends Activity{
 						}
 					});
 					
-					int increment = (int) (Math.random()*5 + 1);
+					int increment = (int) (Math.random()*125);
+
+					if(increment >= 0 && increment < 75)
+						increment = 1;
+					else if(increment >= 75 && increment < 100)
+						increment = 2;
+					else if(increment >= 100 && increment < 110)
+						increment = 3;
+					else if (increment >= 100 && increment < 120)
+						increment = 4;
+					else 
+						increment = 5;
 					
 					TextView tv2 = new TextView(act);
 					tv2.setTextAppearance(act, android.R.style.TextAppearance_DeviceDefault_Large);
-					tv2.setText("+"+ increment);
+					
+					if(increment == 5)
+						tv2.setText("+"+ increment + "!");
+					else
+						tv2.setText("+" + increment);
+					
+					tv2.setTextSize(increment*4 + 20);
 					tv2.setTextColor(color2);
 					frame.addView(tv2);
 					int xfinal = (int) (Math.random() * (width-200));
